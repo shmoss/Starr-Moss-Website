@@ -154,7 +154,7 @@ a:hover{
 }
 
 .logo_header {
-  font-size: 40px;
+  font-size: 30px;
   font-weight:800 !important;
   font: Raleway, sans-serif;
   color:#0c2d1c;
@@ -424,8 +424,14 @@ a:hover{
 /*  container for people photos */
 #people-container {
     padding-top:10px;
+    padding-left:70px !important;
+    padding-right:70px !important;
   }
 
+
+.col-6.col-md-4.p-4.lead-scientist {
+
+}
 
 
 /*  Bio info container (name, title) */
@@ -455,10 +461,11 @@ a:hover{
   max-width: 200px;
   max-height: 200px;
   overflow: hidden !important;
-  margin:0 auto;
+  margin:0 auto !important;
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
   border-radius: 50% !important;
   transform: translateZ(0px); /* force GPU rendering */
+  border:.5px solid gray;
 }
 
 .img-fluid.d-block.mx-auto{
