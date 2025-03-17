@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap');
 
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
@@ -17,12 +16,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Quicksand:wght@300..700&display=swap');
+
 body {
 	width:auto;
 	letter-spacing: normal;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size:16px;
   background-color:#ffffff !important;
+  color: #575757;
 }
 
 body::-webkit-scrollbar {
@@ -43,7 +47,7 @@ body::-webkit-scrollbar-thumb {
 
 h1 {
   padding-bottom:8px;
-  color:#0c2d1c!important;
+  color: #222222;
   font-size:36px;
   font-weight: 700 !important
 }
@@ -52,7 +56,7 @@ h1 {
 
 h2 {
  font-size:28px;
- color:#0c2d1c !important;
+ color:#222222 !important;
  font-weight: 700 !important
 }
 
@@ -72,17 +76,18 @@ a:hover, a:active {
 }
 
 p {
-  margin-bottom: 20px;
+   /*margin-bottom: 20px;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
-  font-weight: 400 !important;
+  font-weight: 400;
   line-height: 1.8em;
   letter-spacing: normal;
-  color:#383f45;
+  color:#383f45;*/
+
 }
 
 a {
-  color:#0c2d1c
+  color:#222222
 }
 
 b {
@@ -100,6 +105,7 @@ a:hover{
   max-width: 100%;
   margin: auto;   
 }
+
 
 .container {
   padding-right:30px !important;
@@ -150,14 +156,14 @@ a:hover{
 .logo_subheader {
   font-size: 14px;
   font-weight:500 !important;
-  color:#0c2d1c;
+  color:#222222;
 }
 
 .logo_header {
   font-size: 30px;
   font-weight:800 !important;
   font: Raleway, sans-serif;
-  color:#0c2d1c;
+  color:#222222;
 
 }
 
@@ -165,7 +171,7 @@ a:hover{
 .introHomePage{
   font-size: 16px;
   font-weight:800 !important;
-  color: #0c2d1c !important
+  color: #222222 !important
 }
 
 /* ------------------------------Home Page------------------------------*/
@@ -197,7 +203,7 @@ a:hover{
 /* News Scroll */
 .newsDate {
   font-size: 12px;
-  color:#0c2d1c !important;
+  color:#222222 !important;
 
 }
 
@@ -280,7 +286,7 @@ a:hover{
 .nav-link {
   text-align:left;
   font-size:14px;
-  color:#0c2d1c !important;    
+  color:#222222 !important;    
 }
 
 #navbarNav {
@@ -422,6 +428,13 @@ a:hover{
 /* ------------------------------People Page ------------------------------*/
 
 /*  container for people photos */
+
+.col-md-10.introduction {
+  font-size:16px;
+  font-weight:300;
+  padding-bottom:20px;
+}
+
 #people-container {
     padding-top:10px;
     padding-left:70px !important;
@@ -431,6 +444,10 @@ a:hover{
 
 .col-6.col-md-4.p-4.lead-scientist {
 
+
+}
+#vid {
+  padding-top:0px !important;
 }
 
 
@@ -443,7 +460,7 @@ a:hover{
 .people_name {
   padding-top:2px;
   font-size: 20px;
-  color:#0c2d1c !important
+  color:#222222 !important
 }
 
 /*  Bio title */
@@ -505,6 +522,33 @@ a:hover{
 }
 
 /* ------------------------------People Sub-Page (individual people pages)------------------------------*/
+
+/*  project title  */
+h2.project_title {
+  font-weight: 300 !important;
+  font-size:28px !important;
+  font-spacing:1px !important;
+  text-transform: uppercase !important;
+  margin-bottom: 12px !important;
+
+}
+
+.row.project_content{
+    flex-direction: row-reverse;
+}
+
+
+.project_description {
+  line-height: 1.8em !important;
+  font-size:16px !important;
+  font-weight: 200 !important;
+  font-style: normal;
+
+
+}
+
+
+
 
 /*  bio info container  */
 .col-md-9.col-sm-8 {
@@ -613,8 +657,18 @@ color:#004869 !important
 
 
 /*  bio text container  */
-.col-md-8.bioParagraph { 
+.col-md-6.bioParagraph { 
   padding-top:0px;
+
+  
+}
+
+.col-md-6.project_picture_container {
+
+}
+
+img.img-fluid {
+  margin-top:0px !important;
 }
 
 /*  delete? */
@@ -669,12 +723,12 @@ color:#004869 !important
 }
 
 .research_byline{
-  color:#0c2d1c;
+  color:#222222;
 }
 
 .header.research {
   font-size:16px;
-   color:#0c2d1c;
+   color:#222222;
 }
 
  
@@ -706,7 +760,7 @@ color:#004869 !important
 
 .btn {
   background-color:#ffffff !important;
-  color:#0c2d1c;
+  color:#222222;
   font-weight:400 !important;
   border:none;
 
@@ -719,19 +773,19 @@ color:#004869 !important
 
 
 .btn.active {
-  background-color:#0c2d1c!important;
+  background-color:#222222!important;
   color:#ffffff !important;
   box-shadow:none !important;
 }
 
 .btn:hover{
-  background-color:#0c2d1c !important;
+  background-color:#222222 !important;
   color:#ffffff !important;
   box-shadow:none !important;
 }
 
 .btn:focus{
-  background-color:#0c2d1c !important;
+  background-color:#222222 !important;
   color:#ffffff !important;
   box-shadow:none !important;
 }
@@ -752,7 +806,7 @@ color:#004869 !important
 }
 
 .card :hover h4{
-  color:#0c2d1c !important;
+  color:#222222 !important;
 }
 
 .card:hover {
@@ -833,12 +887,12 @@ p.card-text {
 
 
 h6{
-  color:#0c2d1c;
+  color:#222222;
 
 }
 
 h6.teaching-content-header {
-  color:#0c2d1c;
+  color:#222222;
   font-size:18px; 
 }
 /* Capstone list content */
@@ -898,7 +952,7 @@ ul.capstone.list.content {
 
 
 .teaching-content-header {
-  color:#0c2d1c;
+  color:#222222;
   font-weight:600;
   padding-top:10px;
   padding-bottom:3px;
@@ -1046,7 +1100,7 @@ input[type=number] {
 
   .people_name {
     font-size:16px !important;
-    color:#0c2d1c !important
+    color:#222222 !important
   }
 
   .mb-0 {
@@ -1059,21 +1113,21 @@ input[type=number] {
 
   #about span { 
     color:#ffffff !important;
-    background-color:#0c2d1c;
+    background-color:#222222;
     border-radius:8px;
     padding:6px 6px 6px 6px;
   }
 
   #people span { 
     color:#ffffff !important;
-    background-color:#0c2d1c;
+    background-color:#222222;
     border-radius:8px;
     padding:6px 6px 6px 6px;
   }
 
   #publications span { 
     color:#ffffff !important;
-    background-color:#0c2d1c;
+    background-color:#222222;
     border-radius:8px;
     padding:6px 6px 6px 6px;
   }
@@ -1086,7 +1140,7 @@ input[type=number] {
 
   .nav-link:hover span { 
     color:#ffffff !important;
-    background-color:#0c2d1c;
+    background-color:#222222;
     border-radius:8px;
     padding:6px 6px 6px 6px;
   }
@@ -1101,25 +1155,25 @@ input[type=number] {
 
   #about { 
     color:#ffffff !important;
-    background-color:#0c2d1c;
+    background-color:#222222;
     border-radius:8px;
   }
 
   #people { 
     color:#ffffff !important;
-    background-color:#0c2d1c;
+    background-color:#222222;
     border-radius:8px;
   }
 
   #publications { 
     color:#ffffff !important;
-    background-color:#0c2d1c;
+    background-color:#222222;
     border-radius:8px;
   }
 
   .nav-link:hover { 
     color:#ffffff !important;
-    background-color:#0c2d1c;
+    background-color:#222222;
     border-radius:8px;
   }
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
